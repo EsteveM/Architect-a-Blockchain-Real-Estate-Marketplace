@@ -82,12 +82,12 @@ The procedure to obtain functional a copy of the project on your local machine s
     ![trufflecompile](/ScreenShots/trufflecompile.png)
     * Once the contracts have been successfully compiled, type `truffle migrate --reset`, to deploy them to Ganache.
     ![trufflemigrateganache](/ScreenShots/trufflemigrateganache.png)
-    * Now, you can run firstly `truffle test test/TestERC721Mintable.js`, secondly `truffle test test/TestSquareVerifier.js`, and then `truffle test test/TestSolnSquareVerifier.js` to run all eleven supporting unit tests.
+    * Now, you can run `truffle test test/TestERC721Mintable.js`, `truffle test test/TestSquareVerifier.js`, and then `truffle test test/TestSolnSquareVerifier.js` to run all tests.
     ![truffletests](/ScreenShots/truffletests.png)
-* In the fifth place, you have to set up a *secret-parameters.js* file at the root folder of this project, where you are located just now. For convenience, one such file has been provided for you, so that you just have to fill out the data into the corresponding fields. This is a secret parameters file where you have to type two parameters for the application:
+* In the fifth place, you have to set up a *secret-parameters.js* file at the eth-contracts folder of this project, where you are located just now. For convenience, one such file has been provided for you, so that you just have to fill out the data into the corresponding fields. This is a secret parameters file where you have to type two parameters for the application:
     * Firstly, *your Metamask seed (mnemonic)*.
     * Secondly, *your Infura PROJECT ID (infuraKey)*.
-* In the sixth place, both Verifier and SolnSquareVerifier contracts are deployed to the public test network Rinkeby. To this end, you have to go back to the terminal shell window, and type the command `truffle migrate --reset --network rinkeby`.
+* In the sixth place, both Verifier and SolnSquareVerifier contracts are deployed to the public test network Rinkeby. If you wanted to do that yourself, you should go back to the terminal shell window, and type the command `truffle migrate --reset --network rinkeby`. Nevertheless, this is not necessary to test the project.
 ![trufflemigraterinkeby](/ScreenShots/trufflemigraterinkeby.png)
 After successful deployment of the SolnSquareVerifier contract on Rinkeby, as can be observed, the contract assigned contract address is 0x8e88accDD01cb9F3FA12f3e7e59ff40Abc84cB38. It can be accessed at Etherscan at https://rinkeby.etherscan.io/address/0x8e88accDD01cb9F3FA12f3e7e59ff40Abc84cB38.
 ![contractRinkeby](/ScreenShots/contractRinkeby.png)
