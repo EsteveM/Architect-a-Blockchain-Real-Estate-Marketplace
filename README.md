@@ -16,6 +16,7 @@ This project is intended to create a DApp that implements a decentralized housin
 In this section, some key data is provided:
 
 * *Contract address for SolnSquareVerifier on Rinkeby* is 0x8e88accDD01cb9F3FA12f3e7e59ff40Abc84cB38. It can be accessed at Etherscan at https://rinkeby.etherscan.io/address/0x8e88accDD01cb9F3FA12f3e7e59ff40Abc84cB38.
+* *ABI/JSON Interface* can be obtained from the *SolnSquareVerifier.json* file at the */eth-contracts/build/contracts/* folder. 
 * *URL of the OpenSea Marketplace Storefront* is https://rinkeby.opensea.io/assets/realestatemarketplace.
 * *URL of the five properties listed at the [OpenSea](https://opensea.io/) storefront are*:
     * https://rinkeby.opensea.io/assets/0x8e88accDD01cb9F3FA12f3e7e59ff40Abc84cB38/1.
